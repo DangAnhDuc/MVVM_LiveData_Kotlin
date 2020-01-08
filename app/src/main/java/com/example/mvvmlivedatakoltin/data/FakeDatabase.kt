@@ -3,7 +3,7 @@ package com.example.mvvmlivedatakoltin.data
 class FakeDatabase private  constructor(){
 
     var quoteDao = FakeQuoteDao()
-    private set
+        private set
     companion object{
         @Volatile private var instannce: FakeDatabase? = null
 
